@@ -1,0 +1,114 @@
+@media (max-width: 1199px) {     
+	
+	.col-m-1 {width: 8.33%;}     
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+	
+	.hero {
+		height: auto;
+		padding-top: 5%;
+	}
+	section {
+		> .container {    
+			padding: 0 10px;
+		}
+	} 
+	.gallery {
+		img {
+			height: auto;
+			width: 100%;
+		}
+		.col-2 {
+			&:hover .layer {
+				background-color: transparent;
+			}
+			i.fa {
+				cursor: pointer;
+				opacity: 1;
+			}
+		}
+	}
+	.team {
+		.col-3 {
+			&:hover .layer {
+				background-color: transparent;
+			}
+			&:hover .layer p {
+				opacity: 0;
+			}
+		}
+	}
+	footer {
+		.col-4 {
+			text-align: center;
+		}
+		.line {
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {     
+	
+	.col-s-1 {width: 8.33%;}     
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    
+    header {
+		height: auto;
+	}
+	nav {
+		text-align: center;
+
+		img {
+			float: none;
+		}
+		ul {
+			float: none;
+			
+			li {
+				display: block;
+			}
+		}
+	}
+	.hero {
+		.list {
+			position: relative;
+			padding: 0;
+			text-align: center;
+		}
+		.slogan {
+			float: none;
+		}
+	}
+	.picture {
+		.col-8 {
+			text-align: center;
+		}
+	}
+}	
+	
+
+
+
+
